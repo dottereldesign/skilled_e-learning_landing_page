@@ -217,7 +217,7 @@ select {
 
 /* Body */
 body {
-  margin: 1em 1em 0 1em;
+  margin-top: 1em;
 }
 
 /* Header */
@@ -226,6 +226,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2em;
+  margin: 0 1em 3em 1em;
 }
 
 header a {
@@ -248,17 +249,39 @@ main .landing__body {
   margin-bottom: 1.5em;
 }
 
+main .landing {
+  margin: 0 1em 0 1em;
+}
+
 main button {
   width: 167px;
   height: 56px;
   border-radius: 50px;
   border: none;
+  margin-bottom: 1em;
 }
 
-.hero {
-  background-image: url("images/image-hero-mobile@2x.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-  height: 375px;
+.hero img {
+  width: 420px;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* Section */
+section {
+  margin: -40px 1em 0 1em;
+}
+
+.grid--card {
+  display: grid;
+  row-gap: 1em;
+}
+
+.card--checkout {
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.card {
+  margin: 0 1.5em 0 1.5em;
 }
