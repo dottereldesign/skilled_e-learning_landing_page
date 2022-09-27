@@ -188,7 +188,7 @@ select {
 }
 
 .fs-500 {
-  font-size: var(--fs-body, --fs-button);
+  font-size: var(--fs-body);
 }
 
 .fs-600 {
@@ -216,7 +216,7 @@ select {
 }
 
 /* Body */
-Body {
+body {
   margin: 1em 1em 0 1em;
 }
 
@@ -228,7 +228,7 @@ header {
   margin-bottom: 2em;
 }
 
-a {
+header a {
   text-decoration: none;
 }
 
@@ -244,7 +244,7 @@ main h1 {
   margin-bottom: 0.6em;
 }
 
-.landing__body {
+main .landing__body {
   margin-bottom: 1.5em;
 }
 
@@ -253,4 +253,12 @@ main button {
   height: 56px;
   border-radius: 50px;
   border: none;
+}
+
+.hero {
+  background-image: url("images/image-hero-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 375px;
 }
