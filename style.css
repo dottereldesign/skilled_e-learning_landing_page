@@ -240,17 +240,18 @@ header button {
   border: none;
 }
 
+/* Main */
 main h1 {
   line-height: 1.2em;
   margin-bottom: 0.6em;
 }
 
-main .landing__body {
-  margin-bottom: 1.5em;
-}
-
 main .landing {
   margin: 0 1em 0 1em;
+}
+
+main .landing__body {
+  margin-bottom: 1.5em;
 }
 
 main button {
@@ -261,7 +262,7 @@ main button {
   margin-bottom: 1em;
 }
 
-.hero img {
+main .hero img {
   width: 420px;
   height: 420px;
   object-fit: cover;
@@ -269,19 +270,59 @@ main button {
 
 /* Section */
 section {
-  margin: -40px 1em 0 1em;
+  margin-top: -30px;
+  padding: 0px 1em 0 1em;
+  background-color: #f0f1ff;
 }
 
-.grid--card {
+section .grid__card {
   display: grid;
   row-gap: 1em;
 }
 
-.card--checkout {
+section .card__checkout {
   padding: 1em;
   border-radius: 10px;
 }
 
-.card {
-  margin: 0 1.5em 0 1.5em;
+section .card {
+  margin: 0em 0em 2em 0em;
+  border-radius: 10px;
+  padding: 0em 1.5em 2em 1.5em;
+}
+
+section .card__image {
+  margin-bottom: 1.5em;
+}
+
+section .card__heading {
+  margin-bottom: 0.75em;
+}
+
+section .card__link {
+  text-decoration: none;
+}
+
+section .card__body {
+  margin-bottom: 1.5em;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 1em 2em 1em;
+  align-items: center;
+}
+
+footer .footer__logo {
+  width: 89px;
+  height: 100%;
+}
+
+footer .footer__button {
+  width: 140px;
+  height: 48px;
+  border-radius: 50px;
+  border: none;
 }
