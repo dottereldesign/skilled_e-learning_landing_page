@@ -260,6 +260,7 @@ main button {
   border-radius: 50px;
   border: none;
   margin-bottom: 1em;
+  background-image: linear-gradient(180deg, #ff6f48, #f02aa6);
 }
 
 main .hero img {
@@ -283,6 +284,8 @@ section .grid__card {
 section .card__checkout {
   padding: 1em;
   border-radius: 10px;
+  margin-bottom: 1em;
+  background-image: linear-gradient(180deg, #ff6f48, #f02aa6);
 }
 
 section .card {
@@ -291,12 +294,18 @@ section .card {
   padding: 0em 1.5em 2em 1.5em;
 }
 
+section .card > img {
+  margin-top: -1.5em;
+  position: absolute;
+}
+
 section .card__image {
   margin-bottom: 1.5em;
 }
 
 section .card__heading {
   margin-bottom: 0.75em;
+  padding-top: 2.5em;
 }
 
 section .card__link {
@@ -325,4 +334,5 @@ footer .footer__button {
   height: 48px;
   border-radius: 50px;
   border: none;
+  background-image: linear-gradient(180deg, #4851ff, #f02aa6);
 }
