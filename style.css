@@ -240,6 +240,13 @@ header button {
   border: none;
 }
 
+/* 768px */
+@media (min-width: 48em) {
+  header {
+    margin: 0 2em 3em 2em;
+  }
+}
+
 /* Main */
 main h1 {
   line-height: 1.2em;
@@ -267,6 +274,19 @@ main .hero img {
   width: 420px;
   height: 420px;
   object-fit: cover;
+}
+
+/* 768px */
+@media (min-width: 48em) {
+  .grid__landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 4em;
+  }
+
+  main .landing {
+    margin: 0 2em 0 2em;
+  }
 }
 
 /* Section */
@@ -316,6 +336,20 @@ section .card__body {
   margin-bottom: 1.5em;
 }
 
+/* 768px */
+@media (min-width: 48em) {
+  .grid__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding-bottom: 3em;
+  }
+
+  section {
+    padding: 0px 2em 0 2em;
+  }
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -335,4 +369,11 @@ footer .footer__button {
   border-radius: 50px;
   border: none;
   background-image: linear-gradient(180deg, #4851ff, #f02aa6);
+}
+
+/* 768px */
+@media (min-width: 48em) {
+  footer {
+    padding: 2em 2em 2em 2em;
+  }
 }
