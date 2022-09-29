@@ -232,6 +232,14 @@ body {
   }
 }
 
+/* Desktop - 1440px */
+@media (min-width: 90em) {
+  body {
+    background-image: linear-gradient(180deg, var(--clr-neutral-100), #f0f2ff);
+    background-color: none;
+  }
+}
+
 /* Header */
 header {
   display: flex;
@@ -256,6 +264,13 @@ header button {
 @media (min-width: 48em) {
   header {
     margin: 0 2em 3em 2em;
+  }
+}
+
+@media (min-width: 90em) {
+  header {
+    width: 1200px;
+    margin: 0 auto 6em auto;
   }
 }
 
@@ -298,6 +313,17 @@ main .hero img {
 
   main .landing {
     margin: 0 2em 0 2em;
+  }
+}
+
+@media (min-width: 90em) {
+  main {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  main .landing {
+    margin: 0;
   }
 }
 
@@ -362,6 +388,23 @@ section .card__body {
   }
 }
 
+/* Desktop - 1440px */
+@media (min-width: 90em) {
+  section {
+    width: 1200px;
+    margin: 0 auto;
+    background-image: none;
+    padding: 1.5em 0em 0em 0em;
+  }
+
+  .grid__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    padding-bottom: 3em;
+  }
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -388,8 +431,4 @@ footer .footer__button {
   footer {
     padding: 2em 2em 2em 2em;
   }
-}
-
-/* Desktop - 1440px */
-@media (min-width: 48em) {
 }
