@@ -55,6 +55,8 @@
   }
 }
 
+/* Woman blowing on a hot mug. Two icons next to it saying, 'Members 29k and Course hours 1,451.' */
+
 /* Reset */
 /* Box sizing rules */
 *,
@@ -218,6 +220,7 @@ select {
 /* Body */
 body {
   margin-top: 1em;
+  background-image: linear-gradient(180deg, var(--clr-neutral-100), #f0f2ff);
 }
 
 /* Header */
@@ -293,7 +296,6 @@ main .hero img {
 section {
   margin-top: -30px;
   padding: 0px 1em 0 1em;
-  background-color: #f0f1ff;
 }
 
 section .grid__card {
