@@ -217,6 +217,10 @@ select {
   font-size: var(--fs-logo);
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* Body */
 body {
   margin-top: 1em;
